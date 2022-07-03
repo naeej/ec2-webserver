@@ -20,7 +20,7 @@ Note:
 
 ## Deletion
 
-aws cloudformation delete  --stack-name $stackname
+`aws cloudformation delete  --stack-name $stackname`
 
 You can use this command to delete the stack
 
