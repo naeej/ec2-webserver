@@ -12,7 +12,7 @@ I made this Repository for the DevOps Challenge.
 
 You can use this Command to create the stack
 
-`aws cloudformation create-stack --stack-name $stackname --template-body file://templates/Webserver.yaml --parameters ParameterKey=ParameterKeyName,ParameterValue=keypairr`
+`aws cloudformation create-stack --stack-name $stackname --template-body file://templates/Webserver.yaml --parameters ParameterKey=ParameterKeyName,ParameterValue=keypair`
 
 Note:
 - Make sure you replace the parameter value with your aws `keypair` name!
